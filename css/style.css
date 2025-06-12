@@ -1,0 +1,60 @@
+:root {
+  --fuenteTitulos: "Michroma", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  --color-fondo: #c4d2e6;
+  --fuente-comun: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+}
+body {
+  background-color: var(--color-fondo);
+  color: white;
+  font-family: var(--fuente-comun);
+}
+h1 {
+  font-family: var(--fuenteTitulos);
+}
+.item {
+  display: flex;
+}
+header {
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: ;
+}
+.itemNav {
+  color: rgb(255, 255, 255);
+  text-decoration: dotted;
+}
+.nav-link {
+  color: #ffffff;
+}
+.contNav {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.menuDrop {
+  color: #ffffff;
+  font-style: var(--fuente-comun);
+  border: solid 1px white;
+  background-color: var(--color-fondo);
+  border-radius: 3px;
+}
+.carousel {
+  height: 500px;
+  width: 400px;
+}
+.btn {
+  background-color: var(--color-fondo);
+  color: white;
+}
+.contFooter {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 10px;
+  color: black;
+}
